@@ -1,0 +1,61 @@
+aws 초기 설정
+1. python설치 – anaconda 다운로드
+$ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
+
+1-2. anaconda 다운로드 확인
+$ ll
+
+2.  anaconda 파일 유효성 검증
+$ shasum -a 256 /home/ubuntu/Anaconda3-2022.10-Linux-x86_64.sh
+
+3. anaconda 설치
+$ bash ./Anaconda3-2022.10-Linux-x86_64.sh
+
+4. 경로 이동
+$ source ~/anaconda3/bin/activate
+
+5. 가상 환경 생성
+$ conda create -n world python=3.10 -y
+
+5-2. 생성된 가상환경 확인
+$ conda env list
+
+6. 가상 환경 적용(변경)
+$ conda activate world
+
+7. 기본 설치 명령어 수행
+$ pip install jupyter
+$ pip install ipykernel
+
+##python -m ipykernel install --user --name world --display-name "worldpapa"
+
+8. vscode extension python, jupyter 설치
+
+9. 패키지 설치 명령어 수행
+$ pip install -r requirements_linux.txt
+
+9-2. OS 에 추가 라이브러리 설치
+$ sudo apt install libgl1-mesa-glx
+
+10. Django 실행
+$ sudo /home/ubuntu/anaconda3/envs/world/bin/python manage.py runserver 0:80
+
+$ sudo /home/ubuntu/deploy/mysite/manage.py runserver 0:80
+$ nohup sudo /home/ubuntu/anaconda3/envs/mini7/bin/python manage.py runserve
+r 0:80&
+
+번외
+1. mlflow 코드 
+import mlflow
+
+mlflow_uri = "sqlite:///mlflow.db"
+mlflow.set_tracking_uri(mlflow_uri)
+
+2. mlflow 명령어
+2.1. 로컬
+$ mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./artifacts
+
+2.2. 전역 (5000포트 운영서버)
+$ mlflow ui -h 0.0.0.0 -p 5000 --backend-store-uri sqlite:///mlflow.db
+
+http://15.165.18.212:5000/
