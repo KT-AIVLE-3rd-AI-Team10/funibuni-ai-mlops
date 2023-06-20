@@ -8,6 +8,9 @@ http://15.165.18.212:5000/
 ## MLFlow Usage guide
 https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/blob/main/document/mlflow_0616.ipynb
 
+## AWS 초기설정
+https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/blob/main/document/aws%20%EC%B4%88%EA%B8%B0%20%EC%84%A4%EC%A0%95.txt
+
 ## AWS EC2 Instances info
 ![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/de3b24f8-52e2-47de-92e9-458505f7d472)
 
