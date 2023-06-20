@@ -3,7 +3,7 @@
 ##### Last update : @2023/06/16
 
 ## MLFlow Server IP
-http://15.165.18.212:5000/
+http://13.124.68.167:5000/
 
 ## MLFlow Usage guide
 https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/blob/main/document/mlflow_0616.ipynb
