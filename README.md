@@ -15,7 +15,7 @@ https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/blob/
 https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/blob/main/document/aws%20%EC%B4%88%EA%B8%B0%20%EC%84%A4%EC%A0%95.txt
 
 ## AWS EC2 Instances Info
-![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/de3b24f8-52e2-47de-92e9-458505f7d472)
+![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/231128b1-4683-405f-ad8e-3230f86f4174)
 
 ## AWS EC2 Instances Structure
 
