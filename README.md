@@ -1,6 +1,6 @@
 # aivle-ai-team10-ai-mlops
 
-##### Last update : @2023/06/23
+##### Last update : @2023/06/28
 
 ## 1. MLFlow Server IP
 http://13.124.68.167:5000/
