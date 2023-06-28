@@ -37,7 +37,7 @@ http://13.124.68.167:5000/
 ### 5.2. 스테이지로 불러오기
 ![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/23333b7c-9f45-48c1-94a0-6e164c883021)
 
-## 6. 대분류>소분류 모델링 REST API 구현
+## 6. 대분류+소분류 모델링 REST API 구현
 ![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/f5b5ffe8-e0a7-4558-9895-2da328c48514)
 
 ## 7. MLFlow Usage Guide
