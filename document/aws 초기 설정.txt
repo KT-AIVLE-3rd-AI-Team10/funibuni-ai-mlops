@@ -58,4 +58,10 @@ $ mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root 
 2.2. 전역 (5000포트 운영서버)
 $ mlflow ui -h 0.0.0.0 -p 5000 --backend-store-uri sqlite:///mlflow.db
 
-http://15.165.18.212:5000/
+2.3.1. 백그라운드 전역
+nohup mlflow ui -h 0.0.0.0 -p 5000 --backend-store-uri sqlite:///mlflow.db &
+
+2.3.2. 백그라운드 셧다운 
+sqlite:///mlflow.db &
+ps aux | grep mlflow
+kill 00000
