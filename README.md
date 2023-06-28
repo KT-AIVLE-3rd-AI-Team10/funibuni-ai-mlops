@@ -6,7 +6,10 @@
 http://13.124.68.167:5000/
 
 ## 2. 등록된 모델 리스트
-![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/1c148db6-4e87-423f-84dc-3c391958db4a)
+
+![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/d4305f49-e280-45b0-a168-94b535edae4d)
+
+![image](https://github.com/AIVLE-School-Third-Big-Project/aivle-ai-team10-ai-mlops/assets/89823516/72bdf7b3-c044-4d9f-b175-aa27a2273439)
 
 ## 3. 대분류 모델
 
